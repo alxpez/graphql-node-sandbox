@@ -1,0 +1,19 @@
+{
+  "name": "graphql-node-sandbox",
+  "version": "1.0.0",
+  "description": "Defining a graphQL server on nodejs and playing around",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "author": "alxpez",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "express-graphql": "^0.6.7",
+    "graphql": "^0.10.5",
+    "graphql-tools": "^1.2.1",
+    "nodemon": "^1.11.0"
+  }
+}
