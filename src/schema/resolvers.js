@@ -1,4 +1,4 @@
-//Preloaded mock content
+//In-memory mock content
 const links = [
 	{
 		id: 1,

@@ -1,11 +1,15 @@
 {
   "name": "graphql-node-sandbox",
   "version": "1.0.0",
-  "description": "Defining a graphQL server on nodejs and playing around",
+  "description": "Defining a graphQL server with nodejs and playing around",
   "main": "./src/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alxpez/graphql-node-sandbox.git"
   },
   "author": "alxpez",
   "license": "MIT",
